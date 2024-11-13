@@ -28,7 +28,7 @@ int main () {
             sacarMedia(num);
         break;
         case 2:
-           sacarMediana(num);
+           sacarMediana(num, 10);
         break;
         case 3:
              sacarModa(num);

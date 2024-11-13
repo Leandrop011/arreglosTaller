@@ -25,10 +25,11 @@ void ordenar(int *ptr, int n) {
         }
     }
 }
-void sacarMediana(int *ptr) {
-    ordenar(ptr, 10);
-    double mediana = (*(ptr + 4) + *(ptr + 5)) / 2.0;
+void sacarMediana(int *ptr, int n) {
+  ordenar(ptr, 10);
 
+  double mediana = mediana = (*(ptr + n / 2 - 1) + *(ptr + n / 2)) / 2.0;;
+    
 
     printf("\n=============================");
     printf("\nLa Mediana es %.1f\n", mediana);
@@ -50,7 +51,7 @@ void sacarModa(int *ptr){
         }
         
     }
-    if (reps > 1)
+    if (reps >= 1)
     {
          printf("\nLa Moda es  %i .\n", moda);
          printf("\n=============================");
@@ -59,6 +60,7 @@ void sacarModa(int *ptr){
     }
    
 }
+
 void sacarNumAltYnumBaj(int *ptr){
     float max = ptr[10], min = ptr[10];
     
