@@ -60,5 +60,19 @@ void sacarModa(int *ptr){
    
 }
 void sacarNumAltYnumBaj(int *ptr){
-
+    float max = ptr[10], min = ptr[10];
+    
+    for (int i = 0; i < 10; i++)
+    {
+        if (*(ptr + i) > max)
+    {
+        max = *(ptr + i);
+    }else if(*(ptr + i) < min)
+    {
+        min = *(ptr + i); 
+    }
+    }
+    printf("\nEl numero mas Alto es: %f.1", max);
+    printf("\nEl numero mas Bajo es: %f.1", min);
+    
 }
