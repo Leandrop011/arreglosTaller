@@ -28,7 +28,7 @@ void ordenar(int *ptr, int n) {
 void sacarMediana(int *ptr, int n) {
   ordenar(ptr, 10);
 
-  double mediana = mediana = (*(ptr + n / 2 - 1) + *(ptr + n / 2)) / 2.0;;
+  double mediana = mediana = (*(ptr + n / 2 - 1) + *(ptr + n / 2)) / 2.0;
     
 
     printf("\n=============================");
