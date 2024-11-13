@@ -29,7 +29,6 @@ void sacarMediana(int *ptr, int n) {
   ordenar(ptr, 10);
 
   double mediana  = (*(ptr + n / 2 - 1) + *(ptr + n / 2)) / 2.0;
-    
 
     printf("\n=============================");
     printf("\nLa Mediana es %.1f\n", mediana);
