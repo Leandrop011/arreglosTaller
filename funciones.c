@@ -72,7 +72,8 @@ void sacarNumAltYnumBaj(int *ptr){
         min = *(ptr + i); 
     }
     }
-    printf("\nEl numero mas Alto es: %f.1", max);
-    printf("\nEl numero mas Bajo es: %f.1", min);
-    
+    printf("\n============================");
+    printf("\nEl numero mas Alto es: %.2f", max);
+    printf("\nEl numero mas Bajo es: %.2f", min);
+    printf("\n============================");
 }

@@ -14,7 +14,7 @@ int main () {
     }
     do
     {
-        printf("\n==============MENU=============");
+        printf("\n----------------MENU----------------");
         printf("\n1. Sacar la Media de los 10 Numeros: ");
         printf("\n2. Sacar la Mediana de los 10 Numeros : ");
         printf("\n3. Sacar la Moda de los 10 Numeros: ");
